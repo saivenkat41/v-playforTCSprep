@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Player</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./tcsicon.png">
+</head>
+<body>
+  <div id="dashboard">
+    <h2>📊 Dashboard</h2>
+    <ul id="dashboard-list">
+      <li data-playlist="aptitude">Aptitude</li>
+      <li data-playlist="reasoning">Reasoning</li>
+      <li data-playlist="verbal">Verbal</li>
+      <li data-playlist="programming">Programming</li>
+      <li data-playlist="Previousyearquestions">Previous Year Questions</li>
+      <li data-playlist="refpdf">Reference PDFs</li>
+    </ul>
+  </div>
+  <div id="video-container">
+    <div id="video-player">
+      <h1>TCS Preparation 🔥</h1>
+      <iframe id="video" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div id="video-info">
+        <div id="video-title">Select a video to play</div>
+        <div id="video-description"></div>
+      </div>
+    </div>
+    <ul id="playlist-items"></ul>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
